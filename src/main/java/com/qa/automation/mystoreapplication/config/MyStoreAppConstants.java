@@ -12,7 +12,4 @@ public class MyStoreAppConstants {
 	public static String HOMEPAGEPROP=RESOURCES+File.separator+"pages"+File.separator+"homepage.properties";
 	public static String SIGNINPROP=RESOURCES+File.separator+"pages"+File.separator+"signin.properties";
 	public static String ORDERDETAILSPROP=RESOURCES+File.separator+"pages"+File.separator+"orderdetails.properties";
-	
-	public static String REGISTRATION_PROPERTIES=RESOURCES+File.separator+"pages"+File.separator+"registration.properties";
-	public static final String TESTDATA_EXCELFILE_PATH = RESOURCES + "testdata" + File.separator + "MyStoreApp.xlsx";
 }

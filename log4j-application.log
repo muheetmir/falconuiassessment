@@ -8125,3 +8125,47 @@
 2020-04-07 18:47:41 INFO  CheckoutPage:49 - click on user name link
 2020-04-07 18:47:41 INFO  CheckoutPage:49 - click on sign out
 2020-04-07 18:47:41 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-04-07 19:04:08 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-04-07 19:04:08 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-04-07 19:04:42 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-04-07 19:04:42 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-04-07 19:04:42 INFO  CheckoutPage:49 - clicking on sign in link
+2020-04-07 19:04:48 INFO  SignInPage:49 - enter the user name
+2020-04-07 19:04:48 INFO  SignInPage:49 - enter the password
+2020-04-07 19:04:48 INFO  SignInPage:49 - click on sign in button
+2020-04-07 19:04:51 INFO  SignInPage:49 - sign  in button is clicked
+2020-04-07 19:04:54 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : test automation is same as Expected value: test automation
+2020-04-07 19:04:54 INFO  MyStoreOrder:49 - Adding item into cart
+2020-04-07 19:04:54 INFO  ShoppingPage:49 - Click on dresses
+2020-04-07 19:05:01 INFO  ShoppingPage:49 - click on casual dresses category
+2020-04-07 19:05:10 INFO  ShoppingPage:49 - selecting the product from casual dress category
+2020-04-07 19:05:17 INFO  AddToCartPage:49 - updating the item size
+2020-04-07 19:05:19 INFO  AddToCartPage:49 - click on add to cart button
+2020-04-07 19:05:22 INFO  CheckoutPage:49 - click on continue shopping button
+2020-04-07 19:05:24 INFO  ShoppingPage:49 - click on dresses
+2020-04-07 19:05:25 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-04-07 19:05:46 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-04-07 19:05:49 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-04-07 19:05:51 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-04-07 19:05:54 INFO  CheckoutPage:49 - click on proceed to checkout button on address page

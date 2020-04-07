@@ -1,7 +1,7 @@
 package com.qa.automation.mystoreapplication.testscript;
 
 
-import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -25,13 +25,13 @@ import com.qa.automation.mystoreapplication.testsuite.TestSuiteBase;
 public class MyStoreOrder extends TestSuiteBase{
 	
 	private ReportLogService report = new ReportLogServiceImpl(MyStoreOrder.class);
-	SignInPage signpg;				//declaring the ref for LoginPage class and instantiating in respective methods below
-	HomePage homepg;  				//declaring the ref for HomePage class and instantiating in respective methods below
+	SignInPage signpg;	//declaring the ref for SinginPage class and instantiating in respective methods below
+	HomePage homepg;  	//declaring the ref for HomePage class and instantiating in respective methods below
 	AddToCartPage addcartpg;	//declaring the ref for AddToCartPage class and instantiating in respective methods below
-	CheckoutPage chkoutpg;		//declaring the ref for CheckoutPage class and instantiating in respective methods below
+	CheckoutPage chkoutpg;	//declaring the ref for CheckoutPage class and instantiating in respective methods below
 	PaymentPage paypage;	//declaring the ref for PaymentPage class and instantiating in respective methods below
-	ShoppingPage shoppage;
-	OrderDetailsPage orddetailpg;
+	ShoppingPage shoppage; 	// declaring the reference for ShoppingPage class and instantiating below
+	OrderDetailsPage orddetailpg; 	// declaring the reference for OrderDetailsPage class and instantiating below
 	
 	
 // Launching the website and performing sign in with known credentials
