@@ -1,0 +1,378 @@
+<html>
+<head>
+<title>TestNG:  SampleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SampleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 07 18:25:01 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>144 seconds (144499 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signout()'><b>signout</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-1102406693" onClick='toggleBox("Output-1102406693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1102406693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1102406693">
+click on sign out<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: No such driver (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 3A510DFB-DCC3-47A1-84B2-1F5542E021E6
+*** Element info: {Using=xpath, value=//a[@class=&apos;logout&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickSignOut(HomePage.java:56)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signout(MyStoreOrder.java:127)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1102406693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1102406693'><pre>org.openqa.selenium.NoSuchSessionException: No such driver (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 3A510DFB-DCC3-47A1-84B2-1F5542E021E6
+*** Element info: {Using=xpath, value=//a[@class=&apos;logout&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickSignOut(HomePage.java:56)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signout(MyStoreOrder.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails()'><b>verifyOrderDetails</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-1223423021" onClick='toggleBox("Output-1223423021", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1223423021" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1223423021">
+click on user name link<br/>
+clicking on sign in link<br/>
+clicked on reference link<br/>
+Unexpected exception occur: No such driver (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 3A510DFB-DCC3-47A1-84B2-1F5542E021E6<br/>
+Unexpected exception occur: No such driver (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 3A510DFB-DCC3-47A1-84B2-1F5542E021E6<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 3A510DFB-DCC3-47A1-84B2-1F5542E021E6
+*** Element info: {Using=xpath, value=//label[contains(text(),&apos;Printed Dress - Color : Orange, Size : M&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.qa.automation.mystoreapplication.pages.OrderDetailsPage.verifyProductReference(OrderDetailsPage.java:60)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails(MyStoreOrder.java:121)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1223423021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1223423021'><pre>org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 3A510DFB-DCC3-47A1-84B2-1F5542E021E6
+*** Element info: {Using=xpath, value=//label[contains(text(),&apos;Printed Dress - Color : Orange, Size : M&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.qa.automation.mystoreapplication.pages.OrderDetailsPage.verifyProductReference(OrderDetailsPage.java:60)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails(MyStoreOrder.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>43</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@5718570a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.addToCart()'><b>addToCart</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-797119526" onClick='toggleBox("Output-797119526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-797119526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-797119526">
+Adding item into cart<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on everning dresses category<br/>
+selecting the product from everning dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on summer dresses category<br/>
+selecting the product from summary dresses category <br/>
+updating the item size<br/>
+click on add to cart button<br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@5718570a</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.confirmOrder()'><b>confirmOrder</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-1351589007" onClick='toggleBox("Output-1351589007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1351589007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1351589007">
+clicking on the pay by check link<br/>
+clicking on the confirm order button<br/>
+PASS : verify order confirmaiton : ACTUAL : Your order on My Store is complete. 	EXPECTED :Your order on My Store is complete.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@5718570a</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.performCheckout()'><b>performCheckout</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-1793754477" onClick='toggleBox("Output-1793754477", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1793754477" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1793754477">
+click on proceed to checkout button<br/>
+clicking on proceed to checkout button on summary page<br/>
+click on proceed to checkout button on address page<br/>
+Accept the terms and conditions<br/>
+click on checkout button<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@5718570a</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signIntoMyStore()'><b>signIntoMyStore</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br>Parameters: WIN, 10, Edge, 42<br/>
+<a href="#Output-1005391944" onClick='toggleBox("Output-1005391944", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1005391944" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1005391944">
+Opening browser: Edge<br/>
+Maximizing browser window<br/>
+PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store<br/>
+clicking on sign in link<br/>
+enter the user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+sign  in button is clicked<br/>
+PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@5718570a</td></tr>
+</table><p>
+</body>
+</html>

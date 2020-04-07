@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74">
+              <span class="suite-name border-failed">Falcon-Sample-WIN_10_Firefox_74</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Falcon-Sample-WIN_10_Firefox_74">
+                    <span>C:\MyStoreWorkspace\src\main\resources\suitefile\sample.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Falcon-Sample-WIN_10_Firefox_74">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Falcon-Sample-WIN_10_Firefox_74">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Falcon-Sample-WIN_10_Firefox_74">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Falcon-Sample-WIN_10_Firefox_74">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Falcon-Sample-WIN_10_Firefox_74">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Falcon-Sample-WIN_10_Firefox_74">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" class="hide-methods failed suite-Falcon-Sample-WIN_10_Firefox_74"> (hide)</a> <!-- hide-methods failed suite-Falcon-Sample-WIN_10_Firefox_74 -->
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" class="show-methods failed suite-Falcon-Sample-WIN_10_Firefox_74"> (show)</a> <!-- show-methods failed suite-Falcon-Sample-WIN_10_Firefox_74 -->
+                    </span>
+                    <div class="method-list-content failed suite-Falcon-Sample-WIN_10_Firefox_74">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" title="com.qa.automation.mystoreapplication.testscript.MyStoreOrder" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" title="com.qa.automation.mystoreapplication.testscript.MyStoreOrder" hash-for-method="confirmOrder">confirmOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" title="com.qa.automation.mystoreapplication.testscript.MyStoreOrder" hash-for-method="performCheckout">performCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" title="com.qa.automation.mystoreapplication.testscript.MyStoreOrder" hash-for-method="verifyOrderDetails">verifyOrderDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Falcon-Sample-WIN_10_Firefox_74 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" class="hide-methods passed suite-Falcon-Sample-WIN_10_Firefox_74"> (hide)</a> <!-- hide-methods passed suite-Falcon-Sample-WIN_10_Firefox_74 -->
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" class="show-methods passed suite-Falcon-Sample-WIN_10_Firefox_74"> (show)</a> <!-- show-methods passed suite-Falcon-Sample-WIN_10_Firefox_74 -->
+                    </span>
+                    <div class="method-list-content passed suite-Falcon-Sample-WIN_10_Firefox_74">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" title="com.qa.automation.mystoreapplication.testscript.MyStoreOrder" hash-for-method="signIntoMyStore(WIN, 10, Firefox, 74)">signIntoMyStore(WIN, 10, Firefox, 74)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Falcon-Sample-WIN_10_Firefox_74 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Falcon-Sample-WIN_10_Firefox_74" class="panel Falcon-Sample-WIN_10_Firefox_74">
+          <div class="suite-Falcon-Sample-WIN_10_Firefox_74-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.automation.mystoreapplication.testscript.MyStoreOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a class=&quot;button lnk_view btn btn-default&quot; href=&quot;http://automationpractice.com/index.php?id_product=4&amp;controller=product&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.ShoppingPage.addEveningDress(ShoppingPage.java:84)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.addToCart(MyStoreOrder.java:78)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmOrder">
+                  </a> <!-- confirmOrder -->
+                  <span class="method-name">confirmOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:820)
+	at com.atmecs.falcon.automation.ui.selenium.WaitElement.implicitWait(WaitElement.java:71)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.confirmOrder(MyStoreOrder.java:106)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performCheckout">
+                  </a> <!-- performCheckout -->
+                  <span class="method-name">performCheckout</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=name, value=processAddress}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:434)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByName(Find.java:42)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:123)
+	at com.qa.automation.mystoreapplication.pages.CheckoutPage.checkOutAddress(CheckoutPage.java:70)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.performCheckout(MyStoreOrder.java:96)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderDetails">
+                  </a> <!-- verifyOrderDetails -->
+                  <span class="method-name">verifyOrderDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=xpath, value=//a[@class=&apos;account&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickUserNameLink(HomePage.java:62)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails(MyStoreOrder.java:117)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Falcon-Sample-WIN_10_Firefox_74-class-failed -->
+          <div class="suite-Falcon-Sample-WIN_10_Firefox_74-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.automation.mystoreapplication.testscript.MyStoreOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIntoMyStore(WIN, 10, Firefox, 74)">
+                  </a> <!-- signIntoMyStore(WIN, 10, Firefox, 74) -->
+                  <span class="method-name">signIntoMyStore</span>
+                  <span class="parameters">(WIN, 10, Firefox, 74)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Falcon-Sample-WIN_10_Firefox_74-class-passed -->
+        </div> <!-- panel Falcon-Sample-WIN_10_Firefox_74 -->
+        <div panel-name="test-xml-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\MyStoreWorkspace\src\main\resources\suitefile\sample.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Falcon-Sample-WIN_10_Firefox_74&quot;&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;WIN&quot;/&gt;
+  &lt;parameter name=&quot;osVersion&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;74&quot;/&gt;
+  &lt;test name=&quot;SampleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.automation.mystoreapplication.testscript.MyStoreOrder&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SampleTest --&gt;
+&lt;/suite&gt; &lt;!-- Falcon-Sample-WIN_10_Firefox_74 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Falcon-Sample-WIN_10_Firefox_74</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SampleTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Falcon-Sample-WIN_10_Firefox_74</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Falcon-Sample-WIN_10_Firefox_74</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Falcon-Sample-WIN_10_Firefox_74');
+function tableData_Falcon-Sample-WIN_10_Firefox_74() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addToCart')
+data.setCell(0, 2, 'com.qa.automation.mystoreapplication.testscript.MyStoreOrder')
+data.setCell(0, 3, 48415);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signIntoMyStore')
+data.setCell(1, 2, 'com.qa.automation.mystoreapplication.testscript.MyStoreOrder')
+data.setCell(1, 3, 46952);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'performCheckout')
+data.setCell(2, 2, 'com.qa.automation.mystoreapplication.testscript.MyStoreOrder')
+data.setCell(2, 3, 27199);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'confirmOrder')
+data.setCell(3, 2, 'com.qa.automation.mystoreapplication.testscript.MyStoreOrder')
+data.setCell(3, 3, 1422);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyOrderDetails')
+data.setCell(4, 2, 'com.qa.automation.mystoreapplication.testscript.MyStoreOrder')
+data.setCell(4, 3, 11);
+window.suiteTableData['Falcon-Sample-WIN_10_Firefox_74']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_Firefox_74'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Falcon-Sample-WIN_10_Firefox_74">
+              </div> <!-- times-div-Falcon-Sample-WIN_10_Firefox_74 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Falcon-Sample-WIN_10_Firefox_74</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIntoMyStore(WIN, 10, Firefox, 74)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Opening browser: Firefox</span>
+                <span class="reporter-method-output">Maximizing browser window</span>
+                <span class="reporter-method-output">PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store</span>
+                <span class="reporter-method-output">clicking on sign in link</span>
+                <span class="reporter-method-output">enter the user name</span>
+                <span class="reporter-method-output">enter the password</span>
+                <span class="reporter-method-output">click on sign in button</span>
+                <span class="reporter-method-output">sign  in button is clicked</span>
+                <span class="reporter-method-output">PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">confirmOrder</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68</span>
+                <span class="reporter-method-output">Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">performCheckout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click on proceed to checkout button</span>
+                <span class="reporter-method-output">clicking on proceed to checkout button on summary page</span>
+                <span class="reporter-method-output">click on proceed to checkout button on address page</span>
+                <span class="reporter-method-output">Unexpected exception occur: Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68</span>
+                <span class="reporter-method-output">Unexpected exception occur: Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Adding item into cart</span>
+                <span class="reporter-method-output">Click on dresses</span>
+                <span class="reporter-method-output">click on casual dresses category</span>
+                <span class="reporter-method-output">selecting the product from casual dress category</span>
+                <span class="reporter-method-output">updating the item size</span>
+                <span class="reporter-method-output">click on add to cart button</span>
+                <span class="reporter-method-output">click on continue shopping button</span>
+                <span class="reporter-method-output">click on dresses</span>
+                <span class="reporter-method-output">click on everning dresses category</span>
+                <span class="reporter-method-output">selecting the product from everning dress category</span>
+                <span class="reporter-method-output">FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details</span>
+                <span class="reporter-method-output">Unknown error cannot upload screenshot to server : Connection timed out: connect</span>
+                <span class="reporter-method-output">Unknown error cannot upload screenshot to server : Connection timed out: connect</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyOrderDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click on user name link</span>
+                <span class="reporter-method-output">Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68</span>
+                <span class="reporter-method-output">Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Falcon-Sample-WIN_10_Firefox_74" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.automation.mystoreapplication.testscript.MyStoreOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">signIntoMyStore(WIN, 10, Firefox, 74)</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addToCart</span>
+                <span class="method-start">47003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">performCheckout</span>
+                <span class="method-start">116620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">confirmOrder</span>
+                <span class="method-start">143852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyOrderDetails</span>
+                <span class="method-start">145288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signout</span>
+                <span class="method-start">145310 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

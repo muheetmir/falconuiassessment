@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: Firefox]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[enter the user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[sign  in button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation]]>
+    </line>
+    <line>
+      <![CDATA[Adding item into cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on casual dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from casual dress category]]>
+    </line>
+    <line>
+      <![CDATA[updating the item size]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on continue shopping button]]>
+    </line>
+    <line>
+      <![CDATA[click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on everning dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from everning dress category]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details]]>
+    </line>
+    <line>
+      <![CDATA[Unknown error cannot upload screenshot to server : Connection timed out: connect]]>
+    </line>
+    <line>
+      <![CDATA[Unknown error cannot upload screenshot to server : Connection timed out: connect]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button]]>
+    </line>
+    <line>
+      <![CDATA[clicking on proceed to checkout button on summary page]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button on address page]]>
+    </line>
+    <line>
+      <![CDATA[Unexpected exception occur: Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+    </line>
+    <line>
+      <![CDATA[Unexpected exception occur: Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+    </line>
+    <line>
+      <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+    </line>
+    <line>
+      <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+    </line>
+    <line>
+      <![CDATA[click on user name link]]>
+    </line>
+    <line>
+      <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+    </line>
+    <line>
+      <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-WIN_10_Firefox_74" duration-ms="145286" started-at="2020-04-07T13:15:16Z" finished-at="2020-04-07T13:17:41Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="145286" started-at="2020-04-07T13:15:16Z" finished-at="2020-04-07T13:17:41Z">
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="preSetup" is-config="true" duration-ms="32" started-at="2020-04-07T18:45:16Z" finished-at="2020-04-07T18:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="signIntoMyStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="signIntoMyStore" duration-ms="46952" started-at="2020-04-07T18:45:16Z" finished-at="2020-04-07T18:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: Firefox]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store]]>
+            </line>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[enter the user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[sign  in button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIntoMyStore -->
+        <test-method status="FAIL" signature="addToCart()[pri:2, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="addToCart" duration-ms="48415" started-at="2020-04-07T18:46:03Z" finished-at="2020-04-07T18:46:51Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a class="button lnk_view btn btn-default" href="http://automationpractice.com/index.php?id_product=4&controller=product"> could not be scrolled into view
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a class="button lnk_view btn btn-default" href="http://automationpractice.com/index.php?id_product=4&controller=product"> could not be scrolled into view
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.ShoppingPage.addEveningDress(ShoppingPage.java:84)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.addToCart(MyStoreOrder.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Adding item into cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on casual dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from casual dress category]]>
+            </line>
+            <line>
+              <![CDATA[updating the item size]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on continue shopping button]]>
+            </line>
+            <line>
+              <![CDATA[click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on everning dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from everning dress category]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details]]>
+            </line>
+            <line>
+              <![CDATA[Unknown error cannot upload screenshot to server : Connection timed out: connect]]>
+            </line>
+            <line>
+              <![CDATA[Unknown error cannot upload screenshot to server : Connection timed out: connect]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="FAIL" signature="performCheckout()[pri:3, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="performCheckout" duration-ms="27199" started-at="2020-04-07T18:47:12Z" finished-at="2020-04-07T18:47:40Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to convert data to an object
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=name, value=processAddress}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=name, value=processAddress}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:434)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByName(Find.java:42)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:123)
+	at com.qa.automation.mystoreapplication.pages.CheckoutPage.checkOutAddress(CheckoutPage.java:70)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.performCheckout(MyStoreOrder.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on proceed to checkout button]]>
+            </line>
+            <line>
+              <![CDATA[clicking on proceed to checkout button on summary page]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button on address page]]>
+            </line>
+            <line>
+              <![CDATA[Unexpected exception occur: Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </line>
+            <line>
+              <![CDATA[Unexpected exception occur: Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performCheckout -->
+        <test-method status="FAIL" signature="confirmOrder()[pri:4, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="confirmOrder" duration-ms="1422" started-at="2020-04-07T18:47:40Z" finished-at="2020-04-07T18:47:41Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:820)
+	at com.atmecs.falcon.automation.ui.selenium.WaitElement.implicitWait(WaitElement.java:71)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.confirmOrder(MyStoreOrder.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </line>
+            <line>
+              <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method status="FAIL" signature="verifyOrderDetails()[pri:5, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="verifyOrderDetails" duration-ms="11" started-at="2020-04-07T18:47:41Z" finished-at="2020-04-07T18:47:41Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=xpath, value=//a[@class='account']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=xpath, value=//a[@class='account']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickUserNameLink(HomePage.java:62)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails(MyStoreOrder.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on user name link]]>
+            </line>
+            <line>
+              <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </line>
+            <line>
+              <![CDATA[Unexpected exception occur: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrderDetails -->
+        <test-method status="FAIL" signature="signout()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.MyStoreOrder@183e78bb]" name="signout" is-config="true" duration-ms="0" started-at="2020-04-07T18:47:41Z" finished-at="2020-04-07T18:47:41Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=xpath, value=//a[@class='logout']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileRfwKwx, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=19232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 8fd6722e-02f7-42b0-a037-e50c7c97ee68
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.atmecs.falcon.automation.ui.selenium.Find.findElementByXpath(Find.java:73)
+	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickSignOut(HomePage.java:56)
+	at com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signout(MyStoreOrder.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.qa.automation.mystoreapplication.runner.TestNGRunner.main(TestNGRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signout -->
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.MyStoreOrder -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+</testng-results>
